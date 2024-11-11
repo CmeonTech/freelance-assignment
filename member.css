@@ -1,0 +1,500 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+
+.topnavs{
+    background-color: #12151B;
+    width: 100%;
+    height: 50px;
+}
+.navbar-top {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.leftbar{
+    display: flex;
+    margin-top: 10px;
+    width: 30%;
+} 
+
+.billing-toggle .span{
+    text-align: right;
+
+    
+}
+
+.leftbar img{
+    width: 130px;
+}
+
+.leftbar a{
+    margin-left: 13px;
+}
+.rightbar{
+    display: flex;
+    margin-top: 10px;   
+}
+.cont1 {
+    width: 100%;
+    background-color: #001431;
+    
+}
+.max{
+    width: 70%;
+    margin: auto;
+    color: white;
+    padding: 2rem;
+    height: 200px;
+}
+.maxh{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 57px;
+}
+.try{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.trial-btn{
+    font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    height:40px;
+    background-color: #058430;;
+}
+.cont1 h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Pricing Section */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.plan {
+    background-color: #ffffff;
+    border: 1px solid #2c2b2b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 60%;
+    text-align: center;
+    
+}
+
+
+.plan h2 {
+    color: black;
+    font-size: 1.5rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 2rem;
+    color: #333;
+}
+
+.annual-save {
+    color: #008000;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.plan button {
+    /* background-color: #0073e6; */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 0;
+    /* width: 16em;
+    height:45px; */
+}
+
+.plan ul {
+    list-style-type:disc;
+    text-align: left;
+    line-height: 21px;
+}
+
+.plan li {
+    font-size: 15px;
+    margin: 0.3rem 0;
+    font-size: 15px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+    color: black;
+}
+
+.section{
+    width: 66%;
+    margin: auto;
+}
+
+.section p{
+    font-size: 15px;
+    font-weight: 500px;
+    color: black;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.section p a{
+    text-decoration: none;
+}
+
+
+/* Benefits Section */
+
+ .allbenefit{
+    background-image: url('benefits-section-bg.webp');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+
+.benefits {
+    
+    color: white;
+    width: 65%;
+    margin: auto;
+    
+    justify-content: space-between;
+
+}
+.cardiv{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    /* padding-top: -10px; */
+
+}
+.card{
+    width: 25%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.card img{
+    width: 60px;
+} 
+
+.cardiv .card i{
+    width: 20px;
+}
+.empty{
+    width: 35%;
+}
+
+.benefits .card{
+    margin-top: 50px;
+    width: 100%;
+    
+
+
+}
+.benefits h1 {
+    font-size: 41px;
+    margin-bottom: 1rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+}
+.card p{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size : 18px; 
+    line-height: 28px;
+    width: 80%;
+    }
+
+
+
+
+
+.card h2{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size : 18px; 
+    }
+
+
+
+
+
+    /* faq section */
+
+    .accordion{
+       width: 30%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .accordion .h1{
+        font-size: 32px;
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .accordion-header button:hover{
+        background-color: rgba(226, 226, 226, 0.733);
+    }
+
+    .accordion-button{
+        font-weight: bold;
+        font-size: 17px;
+        border: 0.5px 3 rgb(0, 0, 0);
+        
+
+    }
+    .Need{
+        width: 200px;
+        height: 50px;
+        text-align: center;
+    }
+    .faq {    
+        padding: 2rem;
+        background-color: #F4F4F4;
+        text-align: center;
+        width: 30%;
+        margin: auto;
+    }
+    .faqdiv{
+        
+    }
+    .faqbtn{
+    position: relative; 
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    }
+    .focus{ 
+        position: absolute;
+        top: 100%;
+        height: 100px;
+        width:  100%;
+        display: none;
+        
+     }
+    .faqbtn:focus .focus{
+        display: block;
+        background-color: yellow;
+        height: 100px;
+    }
+
+
+    .faqbtn:hover{
+        background-color: rgb(235, 235, 235);
+    }
+
+    .faqbtn h2{
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+    }
+    
+.upgrade-btn{
+    font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    height:40px;
+    background-color: #1772EB;
+} 
+
+/* footer */
+
+footer {
+    position: relative;
+    background-color: #12151B;
+    color: #ffffff;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.footer-container {
+     width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.footer-left img{
+    width: 130px;
+    margin-left: 20px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+
+.footer-left ul {
+    list-style: none;
+    color: #ccc;
+}
+
+.footer-left ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-left ul li i {
+    margin-left: 0px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    width: 10%;
+    /* width: 180px; */
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc;
+    cursor: pointer;
+    font-weight: 300px;
+    margin-left: -30px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer-section ul li:hover {
+    color: #ffffff;
+}
+
+.app-links img {
+    width: 120px;
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    /* text-align: center; */
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom p:first-child {
+    font-weight: bold;
+}
+
+/* Placeholder for icons */
+.icon-globe, .icon-help, .icon-accessibility, .icon-facebook, .icon-twitter, .icon-youtube, .icon-instagram {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    color: #1c1c1c;
+    font-size: 12px;
+}
+
+.footer-bottom hr{
+    width: 60%;
+    margin: auto;
+}
+
+.foot{
+    width: 10%;
+    
+}
+.foot1{
+    width: 50%;
+    text-align: left;
+}
+
+
+.foot p{
+    color: white;
+}
+ hr{
+    width: 60%;
+    margin: auto;
+ }
+
+
+@media (max-width: 768px) {
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit {
+        width: 100%;
+    }
+}

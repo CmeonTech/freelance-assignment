@@ -1,0 +1,108 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section Styling */
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Watch Container */
+.watch {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.watch img.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#watchtextbtn {
+    margin-top: 10px;
+}
+
+.hovertext p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.hover-btn .button-link {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.hover-btn .button-link:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Cards container */
+.housecards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Hover effect on cards */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .housecards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+}

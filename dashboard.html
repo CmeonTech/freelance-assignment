@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a4669eee6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="topnavs">  
+            <div class="navbar-top">
+                <div class="leftbar">
+                    <img src="jide.svg" alt="Freelancer Logo" class="logo">
+                    <a href="#" class="icon"><i class="fa-regular fa-compass"></i>Browse</a>
+                    <a href="#" class="icon"><i class="fa-regular fa-calendar"></i>Manage</a>
+                    <a href="#" class="icon"><i class="fa-regular fa-user"></i>Groups</a>
+                </div>
+                
+                <div class="rightbar">
+                    <a href="#" class="icon"><i class="fa-regular fa-bell"></i></a>
+                    <a href="#" class="icon"><i class="fa-regular fa-folder"></i><span class="notification-count">21</span></a>
+                    <a href="#" class="icon"><i class="fa-regular fa-message"></i></a>
+                    <button class="post-project">Post a Project</button>
+                    <img src="bott.jpg" alt="">
+                    <div class="user-profile">
+                        <span>@Cmeontech</span>
+                        <span>$0.00 USD</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </header>
+   
+    <main class="navbar">
+        <div class="navbar-left">
+            <nav class="navbar-menu">
+                <a href="#">Dashboard</a>
+                <a href="#">Lists</a>
+                <a href="#">Tasklists <span class="dot"></span></a>
+                <a href="#">My Projects</a>
+                <a href="#">Inbox</a>
+                <a href="#">Feedback</a>
+                <a href="#">Free Credit</a>
+                <a href="#">Project Updates</a>
+            </nav>
+        </div>
+    </main>
+
+
+   <!-- section1 -->
+    <div class="container">
+        <div class="setup-section">
+            <div class="header">
+                <img src="jide.svg" alt="Freelancer Icon" class="icon">
+                <p>You are almost ready to start earning money as a freelancer, simply complete the following steps:<br><small>about 2 hours ago</small></p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="dashemail">
+                        <div class="">
+                            <p><strong>Email Address</strong></p>
+                            <p>Verify your email address to make your profile more secure</p>
+                        </div>
+                        <div class="">
+                            <button disabled class="btn-disabled">Already Verified</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="step">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="dashprofile">
+                        <div>
+                            <p><strong>Update your profile</strong></p>
+                            <p>A complete profile increases your chance of getting hired</p>
+                        </div>
+                        <div>
+                        <button class="btn">Profile Page</button>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="step">
+                    <i class="fa-solid fa-tv"></i>
+                    <div class="dashbrowse">
+                    <div>
+                        <p><strong>Place your first bid</strong></p>
+                        <p>Browse through projects and place your first bid</p>
+                    </div>
+                    <div>                   
+                         <a href="#" class="link">Browse Projects</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <div class="progress-section">
+                <p>Set up your account <span>50% done</span></p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+                <p>Having a complete verified account will increase the chances of getting jobs.</p>
+                <div class="account-setup">
+                    <p>Complete your account setup by:</p>
+                    <button class="address-btn">
+                        <div><i class="fa-solid fa-shield"></i> Add your address</div>
+                        <div>+5%</div>
+                    </button>
+                </div>
+            </div>
+            <div class="balance-section">
+                <p>Balance <a href="#" class="add-funds">+ Add funds</a></p>
+                <br>
+                <p><img src="usa.jfif" alt="US Flag"> US Dollar <span>$0.00 USD</span></p>
+                 <hr>
+            </div>
+            <div class="poll-section">
+                <p>Polls</p>
+                <form>
+                    <p>Which smart phone do you own?</p>
+                    <label><input type="radio" name="phone" value="iphone"> iPhone 11+</label><br>
+                    <label><input type="radio" name="phone" value="pixel"> Google Pixel 6+</label><br>
+                    <label><input type="radio" name="phone" value="samsung"> Samsung A23</label><br>
+                    <label><input type="radio" name="phone" value="other"> Another phone with ≥50MP rear camera</label><br>
+                    <label><input type="radio" name="phone" value="none"> None of the above</label><br>
+                    <button type="submit" class="submit-btn">Submit Answer</button>
+                    <button type="button" class="skip-btn">Skip Question</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
